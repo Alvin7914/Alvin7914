@@ -98,6 +98,7 @@ header {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  max-width: 100%;
   position: absolute;
   top: 0;
 
@@ -107,6 +108,7 @@ header {
 .background-tint {
   height: 100vh;
   width: 100vw;
+  max-width: 100%;
   background-color: black;
   opacity: 0.3;
   position: absolute;
@@ -516,4 +518,8 @@ ul.list > li > a:hover {
   font-size: 12px;
   line-height: 16px;
   color: var(--grey_form-border);
+}
+
+.box {
+  max-width: 100%;
 }
